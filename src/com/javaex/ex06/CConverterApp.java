@@ -17,6 +17,16 @@ public class CConverterApp {
         //100달러를 원으로 출력하기
         System.out.println("백달러는 "+CConverter.toKWR(100) +"입니다.");
         
+        
+        /*
+         dollar = CConverter.toDoller(1000000);
+        System.out.println("백만원은 " + dollar + "달러입니다.");
+        
+        won = CConverter.toKWR(100);
+        System.out.println("백달러는 " + won + "입니다.");
+         */
+        
+        
     }
 
 }

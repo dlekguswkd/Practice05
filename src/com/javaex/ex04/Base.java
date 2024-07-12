@@ -21,6 +21,19 @@ public class Base {
     		afternoon();
     	}
     }
+    
+    /* 위 메소드와 같은 의미
+     switch (state){
+        case "낮":
+            day();
+            break;
+        case "밤":
+            night();
+            break;
+        default :
+            afternoon();
+            break;
+     */
 
     
     //정보출력

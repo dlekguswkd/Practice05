@@ -37,7 +37,7 @@ public class AccountApp {
                     
                 case 3:
                     System.out.print("잔고액>");
-                    account.balance();
+                    account.showBalance();
                     break;
                 
                 case 4:

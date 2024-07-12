@@ -22,6 +22,7 @@ public class Account {
 	
 	public Account(String accountNo) {
 		this.accountNo = accountNo;
+		//System.out.println(this.accountNo + " 계좌가 개설되었습니다.");
 	}
 
 	public Account(String accountNo, int balance) {
@@ -35,15 +36,17 @@ public class Account {
 	public int deposit(int money) {		//예금
 		balance = balance +money;
 		return balance;
+		//this.balance = this.balance + money;
 	}
 	
 	public int withdraw(int money) {	//출금
 		balance = balance -money;
 		return balance;
+		//this.balance = this.balance - money;
 	}
 	
-	public void balance() {				//잔고
-		System.out.println(balance);
+	public void showBalance() {				//잔고
+		System.out.println(this.balance);
 	}
 
 }
